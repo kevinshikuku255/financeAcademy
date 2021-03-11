@@ -1,0 +1,208 @@
+.Header{
+  color: black;
+  position: fixed;
+  top: 0;
+  z-index: 11;
+  background-color: #1100ff;
+  width: 100vw;
+  height: 3rem;
+  transform: all .3s;
+  margin: 0 0 0 -.5rem;
+  display: flex;
+}
+
+.Name{
+ color: red;
+ text-shadow: 1px 1px 4px rgb(5, 5, 5);
+ margin-left: 2rem;
+margin-top: 7px;
+}
+
+.Header ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.Header ul li{
+  display: block;
+  margin: 1rem 0 0 0;
+  cursor: pointer;
+}
+
+.Header ul li:hover{
+color:rgb(0, 8, 255);
+}
+
+.Header .menu {
+  background:yellow;
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 4px #000000;
+  font-weight: bolder;
+  font-size: larger;
+
+  position: absolute;
+  right: 0;
+  clear: both;
+  width: 0;
+  height: 100vh;
+  transition: width .2s ease-out;
+}
+
+.Header .menu_icon{
+padding: 20px 28px;
+position: relative;
+margin-left: auto;
+cursor: pointer;
+font-size: large;
+}
+
+
+.Header .nav_icon{
+display: block;
+background-color: black;
+width: 20px;
+height: 3px;
+position: relative;
+z-index: 10;
+transition: background-color .2s ease-in-out;
+}
+.Header .nav_icon::before{
+display: block;
+background: black;
+content: "";
+height: 100%;
+width: 100%;
+position: absolute;
+transition: all .2s ease-out;
+top:6px;
+}
+
+.Header .nav_icon::after{
+display: block;
+background: black;
+content: "";
+height: 100%;
+width: 100%;
+position: absolute;
+transition: all .2s ease-in-out;
+top:-6px;
+}
+
+
+.Header .menu_btn{
+  display: none;
+}
+
+.Header .menu_btn:checked ~ .menu{
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+
+}
+
+.Header .menu_btn:checked ~ .menu li{
+  margin: 2rem 0  0  30%;
+  font-family: sans-serif;
+}
+
+.Header .menu_btn:checked ~ .menu_icon .nav_icon{
+  background: transparent;
+}
+
+.Header .menu_btn:checked ~ .menu_icon .nav_icon:before{
+  transform: rotate(-45deg);
+  background: rgb(0, 0, 0);
+  width: 120%;
+  top: 0;
+}
+
+.Header .menu_btn:checked ~ .menu_icon .nav_icon:after{
+    transform: rotate(45deg);
+    background: rgb(0, 0, 0);
+    width: 120%;
+    top:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+@media (min-width:48em){
+.Header{
+  color: black;
+  position: fixed;
+  top: 0;
+  z-index: 11;
+  background-color:white;
+  width: 100vw;
+  height: 4rem;
+  transform: all .3s;
+  margin: 0 0 0 -.5rem;
+  display: flex;
+}
+
+  .Header ul li {
+     float: left;
+     margin-top: 0;
+     padding: .5rem 1rem;
+  }
+
+  .Header .menu{
+    background:none;
+    border-top:none;
+    color: #000000;
+    clear: none;
+    transition:unset;
+    font-stretch: extra-condensed;
+    width: 40vw;
+    height: 3rem;
+margin-right: 3rem;
+    box-shadow: none;
+}
+.Header .menu_icon{
+    display: none;
+  }
+.Header ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.Header ul li{
+  display: block;
+  margin: 1rem 0 0 0;
+  float: left;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.Header ul li:hover{
+color:rgb(255, 255, 255);
+}
+
+.Header ul li:hover{
+color:rgb(0, 8, 255);
+}
+
+}

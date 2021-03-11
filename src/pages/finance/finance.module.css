@@ -1,0 +1,42 @@
+.main{
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+}
+
+.sideA{
+ flex: 1;
+ min-height: 100vh;
+ margin:0 3rem;
+
+}
+.sideB{
+ flex: .5;
+ padding: 1rem;
+}
+
+.title{
+ color: red;
+ text-decoration-line: underline;
+}
+
+.link{
+cursor: pointer;
+color: blue;
+}
+
+/* --------------------------------MEDIA QUERIES------------------------------------------ */
+@media(max-width:48em){
+  .main{
+   flex-direction: column;
+  }
+  .sideA{
+   flex: auto;
+   flex: 1;
+   margin:0;
+  }
+  .sideB{
+   flex: auto;
+   padding: 0;
+  }
+}
