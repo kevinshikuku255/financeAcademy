@@ -1,13 +1,14 @@
 {
-  "name": "FinanceAcademy",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-  "dev": "next",
-  "build": "next build",
-  "start": "next start -p $PORT",
-  "heroku-postbuild": "npm run build",
-  "test": "echo \"Error: no test specified\" && exit 1"
+      "dev": "next",
+      "build": "npm run export",
+      "start": "next start -p $PORT",
+      "heroku-postbuild": "npm run build",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "export": "next build && next export"
   },
   "dependencies": {
     "next": "10.0.8",
