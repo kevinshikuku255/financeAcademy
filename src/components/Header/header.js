@@ -7,7 +7,7 @@ const Header = () => {
  const router = useRouter()
  return (
 <div className={styles.Header}>
-    <h1 className={styles.Name}>Finance Academy</h1>
+    <h1 className={styles.Name}>Business Academy</h1>
     <input className={styles.menu_btn} type="checkbox" id="loggedIn_menu_btn"/>
     <label htmlFor="loggedIn_menu_btn" className={styles.menu_icon}>
          <span className={styles.nav_icon}> </span>
