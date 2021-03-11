@@ -10,7 +10,7 @@ const SideBar = () => {
     <li><p>Read about finance budget in sacco <a href="#" >Here</a></p></li>
     <li><p>Is a degree really important? <a href="#" >read more?</a></p></li>
     <li><p>How to graduate in a business class <a href="#" >Here</a></p></li>
-    <li><p>Read about finance budget in sacco <a href="https://windoshppe.netlify.app" >Here</a></p></li>
+    <li><p>Read about finance budget in sacco <a href="https://windoshoppe.netlify.app" >Here</a></p></li>
   </ol>
 </div>
  )
