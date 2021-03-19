@@ -36,6 +36,24 @@ background-color: rgba(255, 0, 0, 0.186);
 }
 
 
+.meaning_of_patnership{
+ margin: 1rem ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* -------------------------------------------------------------------------- */
 @media(max-width:48em){
  .Nav li{

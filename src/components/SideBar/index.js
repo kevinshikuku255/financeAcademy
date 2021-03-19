@@ -5,12 +5,11 @@ import styles from "./sidebar.module.css"
 const SideBar = () => {
  return (
 <div className={styles.main}>
-  <h3 className={styles.header} >Recent posts</h3>
+  <h3 className={styles.header} >Related articles</h3>
   <ol>
-    <li><p>Read about finance budget in sacco <a href="#" >Here</a></p></li>
-    <li><p>Is a degree really important? <a href="#" >read more?</a></p></li>
-    <li><p>How to graduate in a business class <a href="#" >Here</a></p></li>
-    <li><p>Read about finance budget in sacco <a href="https://windoshoppe.netlify.app" >Here</a></p></li>
+    <li><p>Sole propriatorship<a href="/solepropriator" >Here</a></p></li>
+    <li><p>Limited partnership? <a href="limitedpartnership" >read more?</a></p></li>
+    <li><p>Partnership deed <a href="/partnership">Here</a></p></li>
   </ol>
 </div>
  )

@@ -14,17 +14,17 @@ const Header = () => {
     </label>
 
         <ul className={styles.menu}>
-              <li onClick={() => router.push('/finance')} >
-                  Finance
+              <li onClick={() => router.push('/solepropriator')} >
+                  Sole propriatorship
               </li>
-              <li onClick={() => router.push('/business')} >
-                  Business
+              <li onClick={() => router.push('/partnership')} >
+                  Partnership deed
               </li>
-              <li onClick={() => router.push('/procurment')} >
-                  Procurment
+              <li onClick={() => router.push('/limitedpartnership')} >
+                  Limited Partnership
               </li>
-              <li onClick={() => router.push('/insurance')} >
-                  Insurance
+              <li onClick={() => router.push('/')} >
+                  Partnership
               </li>
         </ul>
 </div>

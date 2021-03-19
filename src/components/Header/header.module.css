@@ -37,8 +37,8 @@ color:rgb(0, 8, 255);
 }
 
 .Header .menu {
-  background:yellow;
-  color: rgb(0, 0, 0);
+  background:#2b2b2b;
+  color: #ffffff;
   box-shadow: 2px 2px 4px #000000;
   font-weight: bolder;
   font-size: larger;
@@ -105,7 +105,7 @@ top:-6px;
 }
 
 .Header .menu_btn:checked ~ .menu li{
-  margin: 2rem 0  0  30%;
+  margin: 2rem 0  0  10%;
   font-family: sans-serif;
 }
 
@@ -115,14 +115,14 @@ top:-6px;
 
 .Header .menu_btn:checked ~ .menu_icon .nav_icon:before{
   transform: rotate(-45deg);
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   width: 120%;
   top: 0;
 }
 
 .Header .menu_btn:checked ~ .menu_icon .nav_icon:after{
     transform: rotate(45deg);
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     width: 120%;
     top:0;
 }
@@ -131,7 +131,19 @@ top:-6px;
 
 
 
+.headline{
+ height: 15rem;
+ width: 100vw;
+ background-color: teal;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin: -.6rem 0 0 -.5rem;
+ font-size: large;
 
+}
 
 
 
@@ -161,6 +173,21 @@ top:-6px;
   margin: 0 0 0 -.5rem;
   display: flex;
 }
+
+.headline{
+ height: 7rem;
+ width: 60vw;
+ background-color: teal;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin: 0rem 0 0 -.5rem;
+ font-size: large;
+
+}
+
 
 .Name{
  color: red;
